@@ -12,7 +12,7 @@ spec:
     targetRevision: HEAD
   destination:
     name: in-cluster
-    namespace: restricted
+    namespace: apps
   syncPolicy:
     automated:
       prune: false
